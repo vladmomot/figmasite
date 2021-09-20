@@ -83,6 +83,24 @@ nav ul {
   opacity: 0.3;
 }
 
+.nav-btn-container {
+  display: flex;
+  position: relative;
+}
+
+.nav-btn-container .close-btn {
+  opacity: 0;
+  pointer-events: none;
+}
+
+
+.nav-btn-container .search-btn {
+  opacity: 0;
+  pointer-events: none;
+}
+
+
+
 .register-button {
   width: 130px;
   height: 52px;
@@ -1145,7 +1163,6 @@ header {height: 500px;}
 
 @media screen and (min-width: 375px) and (max-width: 768px) {
 
-
 body {
   height: 5500px;
 }
@@ -1161,8 +1178,20 @@ nav ul {
  }
 
 .nav-menu {
+  opacity: 0;
+  margin-bottom: -220px;
+}
+
+.nav-menu.active {
+  opacity: 1;
   width: 50%;
   margin-left: 30%;
+  margin-bottom: 0px;
+}
+
+.nav-btn-container {
+  margin-left: 70%;
+  margin-top: 80px;
 }
 
 .nav-menu li {
@@ -1171,10 +1200,53 @@ nav ul {
   margin-right: 10%;
 }
 
+.nav-btn-container img {
+  position: absolute;
+}
+
+.nav-btn-container .close-btn {
+   background: white;
+   opacity: 1;
+   pointer-events: auto;
+}
+
+
+.nav-btn-container .search-btn {
+  background: white;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+
+.nav-btn-container .close-btn {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-8px);
+  transition: 300ms;
+}
+
+.nav-btn-container .search-btn {
+  pointer-events: auto;
+  transition: 300ms;
+}
+
+.nav-btn-container.active .search-btn {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-8px);
+}
+
+.nav-btn-container.active .close-btn {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
 .sign-in {
   margin: 0;
+  margin-left: -20%;
   margin-top: 80px;
-  font-size: 26px;
+  font-size: 24px;
 }
 
 .top {
@@ -1193,7 +1265,7 @@ nav ul {
 
 .value-proposition {
   width: 70%;
-  margin-top: 900px;
+  margin-top: 700px;
   margin-left: 15%;
 }
 
@@ -1393,12 +1465,21 @@ header {height: 1500px;}
  height: 1200px;
 }
 
+footer .logo {
+  font-size: 24px;
+}
+
+footer .logo img {
+  height: 50px;
+}
+
+
 .quick-link, .resources {
   margin: 0;
 }
 
 .quick-link h3, .resources h3 {
- font-size: 42px;
+  font-size: 32px;
 }
 
 .links li a {
@@ -1406,6 +1487,7 @@ header {height: 1500px;}
 }
 
 .payment-systems {
+  margin-top: 200px;
   float: left;
   width: 80%;
 }
@@ -1415,7 +1497,7 @@ header {height: 1500px;}
 }
 
 .payment-systems img {
-  width: 150px;
+  width: 70px;
 }
 
 .payment-systems div {
@@ -1424,21 +1506,19 @@ header {height: 1500px;}
 
 .footer2 {
   flex-direction: column-reverse; ;
-  margin-left: 15%;
 }
 
 .footer2 p {
   font-size: 20px;
+  padding: 10%;
 }
 
 .socials {
-  margin-bottom: 100px;
   width: 100%;
   margin-left: 0;
 }
 
 @media screen and (min-width: 540px) and (max-width: 640px) {
-
 
 .value-proposition {
   width: 80%;

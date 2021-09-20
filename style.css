@@ -1143,7 +1143,7 @@ header {height: 500px;}
 
 }
 
-@media screen and (min-width: 400px) and (max-width: 768px) {
+@media screen and (min-width: 375px) and (max-width: 768px) {
 
 
 body {
@@ -1474,7 +1474,7 @@ header {height: 1500px;}
 }
 
 
-@media screen and (min-width: 400px) and (max-width: 540px) {
+@media screen and (min-width: 425px) and (max-width: 540px) {
 
 .illustration1 {
   height: 23%;
@@ -1508,3 +1508,56 @@ header {height: 1500px;}
   font-size: 19px;
 }
 }
+
+@media screen and (min-width: 375px) and (max-width: 425px) {
+
+.illustration1 {
+  height: 23%;
+  margin-right: 8%;
+}
+
+.number1 {
+  margin-top: 0;
+}
+
+.value-proposition {
+  width: 80%;
+  margin-top: 650px;
+  margin-left: 10%;
+}
+
+header {height: 1300px;}
+
+
+.trade-securely .text h1 {
+  font-size: 24px;
+}
+
+.cryptocurrencies h1 {
+  font-size: 24px;
+}
+
+.info {
+  width: 330px;
+  height: 60px;
+}
+
+.info .button {
+  padding: 5%;
+  height: 60px;
+}
+
+
+.features {
+  height: 2500px;
+}
+
+.features h1{
+  font-size: 28px;
+}
+
+.calculate h2 {
+  font-size: 16px;
+}
+}
+

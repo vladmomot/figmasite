@@ -3,7 +3,6 @@
   margin: 0;
 }
 
-
 body {
   position: relative;
   height: 5900px;
@@ -114,9 +113,8 @@ nav ul {
 }
 
 .value-proposition .text {
-  width: 435px;
   height: 56px;
-  margin-top: 24px;
+  margin: 24px 0;
   font-style: normal;
   font-weight: normal;
   line-height: 28px;
@@ -373,7 +371,6 @@ nav ul {
   margin-right: auto 
 }
 
-
 .cryptocurrencies h1 {
   position: relative;
   width: 65%;
@@ -511,14 +508,12 @@ nav ul {
   text-align: center;
 }
 
-
 .detailed-statistics .text { 
   margin-top: 15%;
   float: right;
   margin-right: 15%;
   padding-bottom: 330px;
 }
-
 
 .invest-smart img {
   width: 33%;
@@ -673,7 +668,7 @@ footer .logo img {
   margin-left: 32px;
 }
 
-@media screen and (min-width: 1350px) and (max-width: 1450px) and (orientation: landscape) {
+@media screen and (min-width: 1350px) and (max-width: 1450px) {
 
 nav ul {
   margin-left: 30%;
@@ -738,7 +733,6 @@ nav ul {
   padding: 4%;
 }
 
-
 .payment-systems h1 {
   font-size: 28px;
 }
@@ -753,7 +747,7 @@ nav ul {
 
 }
 
-@media screen and (min-width: 1280px) and (max-width: 1350px) and (orientation: landscape) {
+@media screen and (min-width: 1280px) and (max-width: 1350px) {
  
  header {height: 1000px;}
 
@@ -763,7 +757,7 @@ nav ul {
 
 }
 
-@media screen and (min-width: 1080px) and (max-width: 1350px) and (orientation: landscape) {
+@media screen and (min-width: 1080px) and (max-width: 1350px) {
 
 body {
   height: 5700px;
@@ -879,7 +873,7 @@ header {height: 750px;}
 
 }
 
-@media screen and (min-width: 900px) and (max-width: 1080px) and (orientation: landscape) {
+@media screen and (min-width: 768px) and (max-width: 1080px) {
 
 body {
   height: 5600px;
@@ -887,7 +881,7 @@ body {
 
 nav ul {
   margin-left: 8%;
- }
+}
 
 .nav-menu li {
   margin-right: 20%;
@@ -927,7 +921,7 @@ header {height: 650px;}
   margin-left: 5%;
 }
 
-.number1 div, .number2 div, .number3 div{
+.number1 div, .number2 div, .number3 div {
  font-size: 18px;
 }
 
@@ -991,7 +985,7 @@ header {height: 650px;}
   margin-left: 5%;
 }
 
-.features .text h1 {
+.features .text h2 {
   font-size: 24px;
 }
 
@@ -1013,6 +1007,8 @@ header {height: 650px;}
 }
 
 .start-mining-now {
+  margin-left: 5%;
+  width: 90%;
   height: 180px;
 }
 
@@ -1051,106 +1047,45 @@ header {height: 650px;}
 }
 
 
-@media screen and (min-width: 770px) and (max-width: 900px) {
+@media screen and (min-width: 768px) and (max-width: 930px) {
+
 body {
-  height: 5600px;
+  height: 5500px;
 }
 
-nav ul {
-  margin-left: 8%;
- }
-
 .nav-menu li {
-  margin-right: 20%;
+  margin-right: 10%;
 }
 
 .sign-in {
-  margin-left: 25%;
-}
-
-.top {
-  margin-top: 0px;
-  font-size: 14px;
- }
-
-.top .logo {
-  font-size: 14px;
-  margin-left: -80px;
-}
-
-.value-proposition {
-  margin-top: -80px;
-  margin-left: 3%;
-}
-
-.value-proposition h1 {
-  font-size: 36px;
-}
-
-.illustration1 {
-  height: 60%;
-  margin-right: 5%; 
-}
-
-header {height: 650px;}
-
-.numbers {
-  margin-left: 5%;
-}
-
-.number1 div, .number2 div, .number3 div{
- font-size: 18px;
-}
-
-.number2, .number3 {
   margin-left: 15%;
 }
 
-.illustration2 {
-  margin-left: -8%;
-  width: 45%;
+.value-proposition h1 {
+  font-size: 28px;
 }
 
-.content {
-  height: 400px;
+header {height: 500px;}
+
+
+.number1 div, .number2 div, .number3 div{
+ font-size: 16px;
 }
 
-.content .text {
-  margin-left: 28px;
-  width: 300px;
+.number2, .number3 {
+  margin-left: 10%;
 }
 
-.content .text h1 {
-  font-size: 36px;
+.calculate {
+  padding: 4%;
 }
 
 .calculate input {
-  width: 42%;
+  width: 38%;
 }
 
-.calculate select {
-  width: 15%;
-}
-
-.coins h2{
- font-size: 24px;
-}
-
-.coins .BTC {
-  margin-left: -8%;
-}
-
-.coins .BTC, .coins .ETH, .coins .LTC {
-  height: 460px;
-}
-
-.coins .button1 {
-  margin-left: 30%;
-}
-
-.coins .button2 {
-  width: 100%;
-  margin-left: 0%;
+.calculate h2 {
+  font-size: 28px;
 }
 
 .features {
@@ -1158,80 +1093,418 @@ header {height: 650px;}
 }
 
 .features .text {
+  width: 30%;
   margin-top: 120px;
   margin-left: 5%;
 }
 
-.features .text h1 {
-  font-size: 24px;
-}
-
-.features img {
-  margin-right: 6%;
-}
-
-.invest-smart img {
-  width: 40%;
-}
-
-.detailed-statistics img { 
-  width: 40%;
-  margin-right: 0%
-}
-
-.grow-profit img {
-  width: 45%;
-}
-
-.start-mining-now {
-  height: 180px;
-}
-
-.start-mining-now h1 {
-  font-size: 22px;
-}
-
-.start-mining-now div {
-  width: 35%;
-}
-
-.start-mining-now input { 
-  margin-left: 4%;
-}
-
-.payment-systems {
-  margin-left: 5%;
-}
-
-.payment-systems h1 {
+.features .text h2 {
   font-size: 20px;
 }
 
-.payment-systems img {
-  width: 56px;
+.features .text p {
+  font-size: 14px;
 }
 
-.footer2 {
-  margin-left: 5%;
+.invest-smart img {
+  width: 50%;
+}
+
+.detailed-statistics img { 
+  width: 50%;
+  margin-right: 0%
+}
+
+.detailed-statistics .text{ 
+  margin-top: 200px;
+}
+
+.grow-profit img {
+  width: 55%;
+}
+
+.payment-systems {
+  margin-left: 10%;
+  width: 15%;
+}
+
+.payment-systems img {
+  width: 90px;
+}
+
+.payment-systems div {
+  flex-direction: column;
 }
 
 .socials {
- margin-left: 30vw;
+ margin-left: 20vw;
 }
 
 
 }
 
+@media screen and (min-width: 425px) and (max-width: 768px) {
 
 
-/*@media (min-width: 544px), (orientation: landscape) {  Стили ...  }
-@media not screen and (orientation: portrait), (min-width: 992px) {  Стили ...  }
-@media (min-width: 544px) {  .numbers {
-  margin-top: 150px;
+body {
+  height: 5500px;
+}
+
+nav {
+  flex-direction: column;
+}
+
+nav ul {
+  flex-direction: column;
+  margin-left: 0;
+  margin-top: 45px;
+ }
+
+.nav-menu {
+  width: 50%;
+  margin-left: 30%;
+}
+
+.nav-menu li {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-right: 10%;
+}
+
+.sign-in {
+  margin: 0;
+  margin-top: 80px;
+  font-size: 26px;
+}
+
+.top {
+  margin-top: 0;
+  font-size: 14px;
+ }
+
+.top .logo {
+  font-size: 24px;
+  margin-left: -90px;
+}
+
+.top .logo img {
+  width: 50px;
+}
+
+.value-proposition {
+  width: 70%;
+  margin-top: 900px;
+  margin-left: 15%;
+}
+
+.value-proposition h1 {
+  font-size: 38px;
+}
+
+.illustration1 {
+  margin-top: 220px;
+  float: center;
+  height: 33%;
+  margin-right: 15%;
+}
+
+header {height: 1500px;}
+
+.numbers {
+  flex-direction: column;
+  align-items: center;
+}
+
+.numbers p {
+  font-size: 18px;
+}
+
+.number1, .number2, .number3{
+  margin-top: 100px;
+}
+
+.number2, .number3{
+  margin-left: 0%;
+}
+
+.number1 div, .number2 div, .number3 div{
+ font-size: 28px;
+}
+
+
+.number1 img, .number2 img, .number3 img{
+ height: 120px;
+}
+
+.illustration2 {
+  float: left;
+  width: 80%;
+}
+
+.content {
+  height: 700px;
+}
+
+.content .text {
+  margin-top: 100px;
+  width: 80%;
+}
+
+.content .text h1 {
+  font-size: 36px;
+}
+
+.calculate {
   display: flex;
   flex-direction: column;
-  margin-left: 18%;
-}Стили CSS ...  }
-@media screen and (device-aspect-ratio: 1336/768)
-<link rel="stylesheet" media="screen and (max-width: 543px)" href="styles-xs.css">
-@import url(styles-xs.css) (max-width: 543px);*/
+  height: 420px;
+  padding: 6%;
+}
+
+.calculate input {
+  width: 100%;
+}
+
+.calculate h2 {
+  font-size: 28px;
+}
+
+
+.calculate select {
+  margin-top: 20px;
+  margin-left: 0;
+  width: 100%;
+}
+
+.calculate .button {
+  margin-left: 0;
+  margin-top: 110px;
+}
+
+.trade-securely {
+  height: 2600px;
+}
+
+.trade-securely .text h1 {
+  font-size: 32px;
+}
+
+.cryptocurrencies h1 {
+  text-align: center;
+  font-size: 32px;
+}
+
+.coins {
+  flex-direction: column;
+}
+
+.coins h2{
+ font-size: 32px;
+}
+
+.coins .BTC, .coins .ETH, .coins .LTC {
+  padding: 10%;
+  margin-left: -100px;
+  width: 80%;
+  height: 460px;
+}
+
+.coins .ETH, .coins .LTC {
+  margin-top: 100px;
+}
+
+.coins .button1 {
+  margin-left: 40%;
+}
+
+.coins .button2 {
+  width: 70%;
+  margin-left: 15%;
+}
+
+.features {
+  height: 2950px;
+}
+
+.features h1{
+  font-size: 32px;
+}
+
+.features .text {
+  margin-left: 10%;
+  width: 75%;
+}
+
+.features .text h2 {
+  font-size: 30px;
+}
+
+.features .text p {
+  font-size: 18px;
+}
+
+.features img {
+  margin-top: 0;
+  float: left;
+}
+
+.invest-smart img {
+  margin-top: 120px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.detailed-statistics img { 
+  width: 90%;
+  margin-top: 100px;
+}
+
+.grow-profit img {
+  width: 90%;
+}
+
+.start-mining-now {
+  flex-direction: column;
+  margin-left: 5%;
+  width: 90%;
+  height: 280px;
+  padding: 5%;
+}
+
+.start-mining-now h1 {
+  font-size: 32px;
+}
+
+.start-mining-now div {
+  width: 100%;
+}
+
+.start-mining-now input { 
+  width: 90%;
+  margin-left: 0;
+}
+
+.start-mining-now .button { 
+  margin-left: 0;
+}
+
+.footer1 {
+ flex-direction: column;
+ height: 1200px;
+}
+
+.quick-link, .resources {
+  margin: 0;
+}
+
+.quick-link h3, .resources h3 {
+ font-size: 42px;
+}
+
+.links li a {
+ font-size: 20px;
+}
+
+.payment-systems {
+  float: left;
+  width: 80%;
+}
+
+.payment-systems h1 {
+  font-size: 24px;
+}
+
+.payment-systems img {
+  width: 150px;
+}
+
+.payment-systems div {
+  flex-direction: row;
+}
+
+.footer2 {
+  flex-direction: column-reverse; ;
+  margin-left: 15%;
+}
+
+.footer2 p {
+  font-size: 20px;
+}
+
+.socials {
+  margin-bottom: 100px;
+  width: 100%;
+  margin-left: 0;
+}
+
+@media screen and (min-width: 540px) and (max-width: 640px) {
+
+
+.value-proposition {
+  width: 80%;
+  margin-top: 800px;
+  margin-left: 10%;
+}
+
+.number1 {
+  margin-top: 0;
+}
+
+.illustration1 {
+  height: 28%;
+  margin-right: 15%;
+}
+
+.trade-securely .text h1 {
+  font-size: 30px;
+}
+
+.cryptocurrencies h1 {
+  font-size: 30px;
+}
+
+.features {
+  height: 2800px;
+}
+
+.calculate h2 {
+  font-size: 20px;
+}
+
+}
+
+
+@media screen and (min-width: 425px) and (max-width: 540px) {
+
+.illustration1 {
+  height: 23%;
+  margin-right: 10%;
+}
+
+.number1 {
+  margin-top: 0;
+}
+
+.value-proposition {
+  width: 80%;
+  margin-top: 750px;
+  margin-left: 10%;
+}
+
+
+.trade-securely .text h1 {
+  font-size: 24px;
+}
+
+.cryptocurrencies h1 {
+  font-size: 24px;
+}
+
+.features {
+  height: 2600px;
+}
+
+.calculate h2 {
+  font-size: 19px;
+}
+}

@@ -22,9 +22,7 @@ a {
    text-decoration: none;
 }
 
-header {
-  height: 850px;
-}
+header {height: 850px;}
 
 .top {
   height: 235px;
@@ -46,13 +44,9 @@ header {
   margin-right: 10px;
 }
 
-.nav-menu {
-  position: relative;
-}
+.nav-menu {position: relative;}
 
-nav {
-  display: flex;
-}
+nav {display: flex;}
 
 nav ul {
   display: flex;
@@ -66,9 +60,7 @@ nav ul {
   margin-right: 18%;
 }
 
-.nav-menu li a {
-  line-height: 28px;
-}
+.nav-menu li a {line-height: 28px;}
 
 .sign-in {
   display: flex;
@@ -93,13 +85,10 @@ nav ul {
   pointer-events: none;
 }
 
-
 .nav-btn-container .search-btn {
   opacity: 0;
   pointer-events: none;
 }
-
-
 
 .register-button {
   width: 130px;
@@ -151,9 +140,7 @@ nav ul {
   padding: 4px;
 }
 
-.info p {
-  padding-top: 8px; 
-}
+.info p {padding-top: 8px;}
 
 .info .button {
   width: 113px;
@@ -190,7 +177,7 @@ nav ul {
   padding: 3px 9px;
 }
 
-.button2 .arrow img{
+.button2 .arrow img {
   width: 12px;
   height: 12px;
 }
@@ -212,9 +199,7 @@ nav ul {
   height: 92px;
 }
 
-.number2, .number3 {
-  margin-left: 100px;
-}
+.number2, .number3 {margin-left: 100px;}
 
 .number1 div, .number2 div, .number3 div {
   margin-left: 24px;
@@ -226,9 +211,7 @@ nav ul {
   margin-left: 10%;
 }
 
-.illustration2 {
-  width: 40%;
-}
+.illustration2 {width: 40%;}
 
 .content .text {
   float: right;
@@ -372,9 +355,7 @@ nav ul {
   color: #828282;
 }
 
-.cryptocurrencies {
-  margin-top: 316px;
-}
+.cryptocurrencies {margin-top: 316px;}
 
 .cryptocurrencies .coins{
   margin-left: 18%;
@@ -399,9 +380,7 @@ nav ul {
   text-align: center;
 }
 
-.coins {
-  align-items: center;
-}
+.coins {align-items: center;}
 
 .coins sup {
   font-family: Rubik;
@@ -426,9 +405,7 @@ nav ul {
 
 }
 
-.coins a {
-  margin-left: 60px;
-}
+.coins a { margin-left: 60px; }
 
 .coins .button1 {
   background: white;
@@ -461,19 +438,14 @@ nav ul {
   border-radius: 16px;
 }
 
-.coins .BTC p {
-   color: white;
-}
+.coins .BTC p {color: white;}
 
 .coins .BTC sup {
    opacity: 0.7;
    color: white;
 }
 
-.coins .ETH, .coins .LTC  {
-  margin-left: 45px;
-  
-}
+.coins .ETH, .coins .LTC  {margin-left: 45px;}
 
 .features {
   height: 1975px;
@@ -533,9 +505,7 @@ nav ul {
   padding-bottom: 330px;
 }
 
-.invest-smart img {
-  width: 33%;
-}
+.invest-smart img {width: 33%;}
 
 .detailed-statistics img { 
   float: left;
@@ -544,10 +514,7 @@ nav ul {
   margin-top: 20%;
 }
 
-.grow-profit img {
-  width: 38%;
-}
-
+.grow-profit img {width: 38%;}
 
 .start-mining {
   height: 392px;
@@ -601,9 +568,7 @@ nav ul {
   font-weight: bold;
 }
 
-footer {
-  height: 550px;
-}
+footer { height: 550px;}
 
 footer  .logo {
   display: flex;
@@ -621,9 +586,7 @@ footer .logo img {
   margin-right: 15px;
 }
 
-.footer1 {
- display: flex;
-}
+.footer1 {display: flex;}
 
 .payment-systems {
   margin-left: 15%;
@@ -682,35 +645,21 @@ footer .logo img {
   margin-left: 50vw;
 }
 
-.socials a {
-  margin-left: 32px;
-}
+.socials a {margin-left: 32px;}
 
 @media screen and (min-width: 1350px) and (max-width: 1450px) {
 
-nav ul {
-  margin-left: 30%;
-}
+nav ul {margin-left: 30%;}
 
-.nav-menu li {
-  margin-right: 20%;
-}
+.nav-menu li {margin-right: 20%;}
 
-.sign-in {
-  margin-left: 18%;
-}
+.sign-in {margin-left: 18%;}
 
-.illustration1 {
-  height: 60%;
-}
+.illustration1 {height: 60%;}
 
-.illustration2 {
-  width: 45%;
-}
+.illustration2 {width: 45%;}
 
-.content {
-  height: 380px;
-}
+.content {height: 380px;}
 
 .content .text {
   margin-left: 28px;
@@ -727,88 +676,54 @@ nav ul {
   margin-left: 8%;
 }
 
-.features {
-  height: 1780px;
-}
+.features {height: 1780px;}
 
-.features .text {
-  margin-top: 120px;
-}
+.features .text {margin-top: 120px;}
 
-.invest-smart img {
-  width: 40%;
-}
+.invest-smart img {width: 40%;}
 
-.detailed-statistics img { 
-  width: 40%;
-}
+.detailed-statistics img {width: 40%;}
 
-.grow-profit img {
-  width: 45%;
-}
+.grow-profit img {width: 45%;}
 
-.start-mining-now {
-  padding: 4%;
-}
+.start-mining-now {padding: 4%;}
 
-.payment-systems h1 {
-  font-size: 28px;
-}
+.payment-systems h1 {font-size: 28px;}
 
-.payment-systems img {
-  width: 76px;
-}
+.payment-systems img {width: 76px;}
 
-.socials {
-  margin-left: 45vw;
-}
+.socials {margin-left: 45vw;}
 
 }
 
 @media screen and (min-width: 1280px) and (max-width: 1350px) {
  
- header {height: 1000px;}
+header {height: 1000px;}
 
- .value-proposition h1 {
-  font-size: 56px;
-}
+.value-proposition h1 {font-size: 56px;}
 
 }
 
 @media screen and (min-width: 1080px) and (max-width: 1350px) {
 
-body {
-  height: 5700px;
-}
+body {height: 5700px;}
 
-nav ul {
-  margin-left: 17%;
-}
+nav ul {margin-left: 17%;}
 
- .nav-menu li {
-  margin-right: 25%;
-}
+.nav-menu li {margin-right: 25%;}
 
-.sign-in {
-  margin-left: 25%;
-}
+.sign-in {margin-left: 25%;}
 
-.top {
-  margin-top: 0px;
-}
+.top {margin-top: 0px;}
 
-.top .logo {
-  margin-left: -50px;
-}
+.top .logo {margin-left: -50px;}
 
 .value-proposition {
   margin-top: -60px;
   margin-left: 8%;
 }
 
-.value-proposition h1 {
-  font-size: 48px;
-}
+.value-proposition h1 {font-size: 48px;}
 
 .illustration1 {
   height: 60%;
@@ -817,97 +732,57 @@ nav ul {
 
 header {height: 750px;}
 
-.number2, .number3 {
-  margin-left: 0px;
-}
+.number2, .number3 {margin-left: 0px;}
 
-.illustration2 {
-  width: 45%;
-}
+.illustration2 {width: 45%;}
 
-.content {
-  height: 400px;
-}
+.content {height: 400px;}
 
 .content .text {
   margin-left: 28px;
   width: 300px;
 }
 
-.content .text h1 {
-  font-size: 38px;
-}
+.content .text h1 {font-size: 38px;}
 
-.coins .button1 {
-  margin-left: 35%;
-}
+.coins .button1 {margin-left: 35%;}
 
 .coins .button2 {
   width: 100%;
   margin-left: 0%;
 }
 
-.features {
-  height: 1680px;
-}
+.features {height: 1680px;}
 
-.features .text {
- margin-top: 140px;
-}
+.features .text {margin-top: 140px;}
 
+.invest-smart img {width: 40%;}
 
-.invest-smart img {
-  width: 40%;
-}
+.detailed-statistics img { width: 40%;}
 
-.detailed-statistics img { 
-  width: 40%;
-}
+.grow-profit img {width: 45%;}
 
-.grow-profit img {
-  width: 45%;
-}
+.start-mining-now {padding: 5%;}
 
-.start-mining-now {
-  padding: 5%;
-}
+.start-mining-now input { margin-left: 4%;}
 
-.start-mining-now input { 
-  margin-left: 4%;
-}
+.payment-systems h1 {font-size: 24px;}
 
+.payment-systems img {width: 56px;}
 
-.payment-systems h1 {
-  font-size: 24px;
-}
-
-.payment-systems img {
-  width: 56px;
-}
-
-.socials {
-  margin-left: 40vw;
-}
+.socials {margin-left: 40vw;}
 
 }
 
 @media screen and (min-width: 768px) and (max-width: 1080px) {
 
-body {
-  height: 5600px;
-}
+body {height: 5600px;}
 
-nav ul {
-  margin-left: 8%;
-}
+nav ul {margin-left: 8%;}
 
-.nav-menu li {
-  margin-right: 20%;
-}
+.nav-menu li {margin-right: 20%;}
 
-.sign-in {
-  margin-left: 25%;
-}
+.sign-in {margin-left: 25%;}
 
 .top {
   margin-top: 0px;
@@ -924,9 +799,7 @@ nav ul {
   margin-left: 3%;
 }
 
-.value-proposition h1 {
-  font-size: 36px;
-}
+.value-proposition h1 {font-size: 36px;}
 
 .illustration1 {
   height: 60%;
@@ -935,94 +808,62 @@ nav ul {
 
 header {height: 650px;}
 
-.numbers {
-  margin-left: 5%;
-}
+.numbers {margin-left: 5%;}
 
-.number1 div, .number2 div, .number3 div {
- font-size: 18px;
-}
+.number1 div, .number2 div, .number3 div {font-size: 18px;}
 
-.number2, .number3 {
-  margin-left: 15%;
-}
+.number2, .number3 {margin-left: 15%;}
 
 .illustration2 {
   margin-left: -8%;
   width: 45%;
 }
 
-.content {
-  height: 400px;
-}
+.content {height: 400px;}
 
 .content .text {
   margin-left: 28px;
   width: 300px;
 }
 
-.content .text h1 {
-  font-size: 36px;
-}
+.content .text h1 {font-size: 36px;}
 
-.calculate input {
-  width: 42%;
-}
+.calculate input {width: 42%;}
 
-.calculate select {
-  width: 15%;
-}
+.calculate select {width: 15%;}
 
-.coins h2{
- font-size: 24px;
-}
+.coins h2{font-size: 24px;}
 
-.coins .BTC {
-  margin-left: -8%;
-}
+.coins .BTC {margin-left: -8%;}
 
-.coins .BTC, .coins .ETH, .coins .LTC {
-  height: 460px;
-}
+.coins .BTC, .coins .ETH, .coins .LTC {height: 460px;}
 
-.coins .button1 {
-  margin-left: 30%;
-}
+.coins .button1 {margin-left: 30%;}
 
 .coins .button2 {
   width: 100%;
   margin-left: 0%;
 }
 
-.features {
-  height: 1680px;
-}
+.features {height: 1680px;}
 
 .features .text {
   margin-top: 120px;
   margin-left: 5%;
 }
 
-.features .text h2 {
-  font-size: 24px;
-}
+.features .text h2 {font-size: 24px;}
 
-.features img {
-  margin-right: 6%;
-}
+.features img {margin-right: 6%;}
 
-.invest-smart img {
-  width: 40%;
-}
+.invest-smart img {width: 40%;}
 
 .detailed-statistics img { 
   width: 40%;
   margin-right: 0%
 }
 
-.grow-profit img {
-  width: 45%;
-}
+.grow-profit img {width: 45%;}
 
 .start-mining-now {
   margin-left: 5%;
@@ -1030,85 +871,48 @@ header {height: 650px;}
   height: 180px;
 }
 
-.start-mining-now h1 {
-  font-size: 22px;
-}
+.start-mining-now h1 {font-size: 22px;}
 
-.start-mining-now div {
-  width: 35%;
-}
+.start-mining-now div {width: 35%;}
 
-.start-mining-now input { 
-  margin-left: 4%;
-}
+.start-mining-now input {margin-left: 4%;}
 
-.payment-systems {
-  margin-left: 5%;
-}
+.payment-systems {margin-left: 5%;}
 
-.payment-systems h1 {
-  font-size: 20px;
-}
+.payment-systems h1 {font-size: 20px;}
 
-.payment-systems img {
-  width: 56px;
-}
+.payment-systems img {width: 56px;}
 
-.footer2 {
-  margin-left: 5%;
-}
+.footer2 {margin-left: 5%;}
 
-.socials {
- margin-left: 30vw;
-}
+.socials {margin-left: 30vw;}
 
 }
 
 
 @media screen and (min-width: 768px) and (max-width: 930px) {
 
-body {
-  height: 5500px;
-}
+body {height: 5500px;}
 
-.nav-menu li {
-  margin-right: 10%;
-}
+.nav-menu li {margin-right: 10%;}
 
-.sign-in {
-  margin-left: 15%;
-}
+.sign-in {margin-left: 15%;}
 
-.value-proposition h1 {
-  font-size: 28px;
-}
+.value-proposition h1 {font-size: 28px;}
 
 header {height: 500px;}
 
+.number1 div, .number2 div, .number3 div{font-size: 16px;}
 
-.number1 div, .number2 div, .number3 div{
- font-size: 16px;
-}
+.number2, .number3 {margin-left: 10%;}
 
-.number2, .number3 {
-  margin-left: 10%;
-}
+.calculate {padding: 4%;}
 
-.calculate {
-  padding: 4%;
-}
+.calculate input {width: 38%;}
 
-.calculate input {
-  width: 38%;
-}
+.calculate h2 {font-size: 28px;}
 
-.calculate h2 {
-  font-size: 28px;
-}
-
-.features {
-  height: 1680px;
-}
+.features {height: 1680px;}
 
 .features .text {
   width: 30%;
@@ -1116,60 +920,39 @@ header {height: 500px;}
   margin-left: 5%;
 }
 
-.features .text h2 {
-  font-size: 20px;
-}
+.features .text h2 {font-size: 20px;}
 
-.features .text p {
-  font-size: 14px;
-}
+.features .text p {font-size: 14px;}
 
-.invest-smart img {
-  width: 50%;
-}
+.invest-smart img {width: 50%;}
 
 .detailed-statistics img { 
   width: 50%;
   margin-right: 0%
 }
 
-.detailed-statistics .text{ 
-  margin-top: 200px;
-}
+.detailed-statistics .text{margin-top: 200px;}
 
-.grow-profit img {
-  width: 55%;
-}
+.grow-profit img {width: 55%;}
 
 .payment-systems {
   margin-left: 10%;
   width: 15%;
 }
 
-.payment-systems img {
-  width: 90px;
-}
+.payment-systems img {width: 90px;}
 
-.payment-systems div {
-  flex-direction: column;
-}
+.payment-systems div {flex-direction: column;}
 
-.socials {
- margin-left: 20vw;
-}
-
+.socials {margin-left: 20vw;}
 
 }
 
-@media screen and (min-width: 375px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
 
-body {
-  height: 5500px;
-}
+body {height: 5500px;}
 
-nav {
-  flex-direction: column;
-}
+nav {flex-direction: column;}
 
 nav ul {
   flex-direction: column;
@@ -1185,13 +968,13 @@ nav ul {
 .nav-menu.active {
   opacity: 1;
   width: 50%;
-  margin-left: 30%;
+  margin-left: 25%;
   margin-bottom: 0px;
 }
 
 .nav-btn-container {
-  margin-left: 70%;
-  margin-top: 80px;
+  margin-left: 85%;
+  margin-top: 75px;
 }
 
 .nav-menu li {
@@ -1200,19 +983,21 @@ nav ul {
   margin-right: 10%;
 }
 
-.nav-btn-container img {
-  position: absolute;
-}
+.nav-btn-container img {position: absolute;}
 
 .nav-btn-container .close-btn {
+   width: 40px;
    background: white;
+   border-radius: 50%;
    opacity: 1;
    pointer-events: auto;
 }
 
 
 .nav-btn-container .search-btn {
+  width: 40px;
   background: white;
+  border-radius: 50%;
   opacity: 1;
   pointer-events: auto;
 }
@@ -1244,7 +1029,7 @@ nav ul {
 
 .sign-in {
   margin: 0;
-  margin-left: -20%;
+  margin-left: 20%;
   margin-top: 80px;
   font-size: 24px;
 }
@@ -1259,72 +1044,53 @@ nav ul {
   margin-left: -90px;
 }
 
-.top .logo img {
-  width: 50px;
-}
+.top .logo img {width: 50px;}
 
 .value-proposition {
   width: 70%;
-  margin-top: 700px;
+  margin-top: 850px;
   margin-left: 15%;
 }
 
-.value-proposition h1 {
-  font-size: 38px;
-}
+.value-proposition h1 {font-size: 38px;}
 
 .illustration1 {
-  margin-top: 220px;
+  margin-top: 250px;
   float: center;
   height: 33%;
   margin-right: 15%;
 }
 
-header {height: 1500px;}
+header {height: 1400px;}
 
 .numbers {
   flex-direction: column;
   align-items: center;
 }
 
-.numbers p {
-  font-size: 18px;
-}
+.numbers p {font-size: 18px;}
 
-.number1, .number2, .number3{
-  margin-top: 100px;
-}
+.number1, .number2, .number3 {margin-top: 100px;}
 
-.number2, .number3{
-  margin-left: 0%;
-}
+.number2, .number3 {margin-left: 0%;}
 
-.number1 div, .number2 div, .number3 div{
- font-size: 28px;
-}
+.number1 div, .number2 div, .number3 div {font-size: 28px;}
 
-
-.number1 img, .number2 img, .number3 img{
- height: 120px;
-}
+.number1 img, .number2 img, .number3 img {height: 120px;}
 
 .illustration2 {
   float: left;
   width: 80%;
 }
 
-.content {
-  height: 700px;
-}
+.content {height: 700px;}
 
 .content .text {
   margin-top: 100px;
   width: 80%;
 }
 
-.content .text h1 {
-  font-size: 36px;
-}
+.content .text h1 {font-size: 36px;}
 
 .calculate {
   display: flex;
@@ -1333,14 +1099,9 @@ header {height: 1500px;}
   padding: 6%;
 }
 
-.calculate input {
-  width: 100%;
-}
+.calculate input {width: 100%;}
 
-.calculate h2 {
-  font-size: 28px;
-}
-
+.calculate h2 {font-size: 28px;}
 
 .calculate select {
   margin-top: 20px;
@@ -1353,67 +1114,47 @@ header {height: 1500px;}
   margin-top: 110px;
 }
 
-.trade-securely {
-  height: 2600px;
-}
+.trade-securely {height: 2600px;}
 
-.trade-securely .text h1 {
-  font-size: 32px;
-}
+.trade-securely .text h1 {font-size: 32px;}
 
 .cryptocurrencies h1 {
   text-align: center;
   font-size: 32px;
 }
 
-.coins {
-  flex-direction: column;
-}
+.coins {flex-direction: column;}
 
-.coins h2{
- font-size: 32px;
-}
+.coins h2 {font-size: 32px;}
 
 .coins .BTC, .coins .ETH, .coins .LTC {
   padding: 10%;
-  margin-left: -100px;
+  margin-left: -20%;
   width: 80%;
   height: 460px;
 }
 
-.coins .ETH, .coins .LTC {
-  margin-top: 100px;
-}
+.coins .ETH, .coins .LTC {margin-top: 100px;}
 
-.coins .button1 {
-  margin-left: 40%;
-}
+.coins .button1 {margin-left: 40%;}
 
 .coins .button2 {
-  width: 70%;
-  margin-left: 15%;
+  width: 80%;
+  margin-left: 10%;
 }
 
-.features {
-  height: 2950px;
-}
+.features {height: 2950px;}
 
-.features h1{
-  font-size: 32px;
-}
+.features h1 {font-size: 32px;}
 
 .features .text {
   margin-left: 10%;
   width: 75%;
 }
 
-.features .text h2 {
-  font-size: 30px;
-}
+.features .text h2 {font-size: 30px;}
 
-.features .text p {
-  font-size: 18px;
-}
+.features .text p {font-size: 18px;}
 
 .features img {
   margin-top: 0;
@@ -1431,9 +1172,7 @@ header {height: 1500px;}
   margin-top: 100px;
 }
 
-.grow-profit img {
-  width: 90%;
-}
+.grow-profit img {width: 90%;}
 
 .start-mining-now {
   flex-direction: column;
@@ -1443,48 +1182,31 @@ header {height: 1500px;}
   padding: 5%;
 }
 
-.start-mining-now h1 {
-  font-size: 32px;
-}
+.start-mining-now h1 {font-size: 32px;}
 
-.start-mining-now div {
-  width: 100%;
-}
+.start-mining-now div {width: 100%;}
 
 .start-mining-now input { 
   width: 90%;
   margin-left: 0;
 }
 
-.start-mining-now .button { 
-  margin-left: 0;
-}
+.start-mining-now .button {margin-left: 0;}
 
 .footer1 {
  flex-direction: column;
  height: 1200px;
 }
 
-footer .logo {
-  font-size: 24px;
-}
+footer .logo {font-size: 24px;}
 
-footer .logo img {
-  height: 50px;
-}
+footer .logo img {height: 50px;}
 
+.quick-link, .resources {margin: 0;}
 
-.quick-link, .resources {
-  margin: 0;
-}
+.quick-link h3, .resources h3 {font-size: 32px;}
 
-.quick-link h3, .resources h3 {
-  font-size: 32px;
-}
-
-.links li a {
- font-size: 20px;
-}
+.links li a {font-size: 20px;}
 
 .payment-systems {
   margin-top: 200px;
@@ -1492,19 +1214,225 @@ footer .logo img {
   width: 80%;
 }
 
-.payment-systems h1 {
-  font-size: 24px;
-}
+.payment-systems h1 {font-size: 24px;}
 
-.payment-systems img {
-  width: 70px;
-}
+.payment-systems img {width: 90px;}
 
-.payment-systems div {
-  flex-direction: row;
-}
+.payment-systems div {flex-direction: row;}
 
 .footer2 {
+  margin-left: 10%;
+  flex-direction: column-reverse;
+}
+
+.footer2 p {
+  font-size: 20px;
+  padding: 5%;
+}
+
+.socials {
+  width: 100%;
+  margin-left: 0;
+}
+
+@media screen and (min-width: 425px) and (max-width: 640px) {
+
+.value-proposition .text {margin: 48px 0;}
+
+.number1 {margin-top: 0;}
+
+.payment-systems img {width: 80px;}
+
+.footer2 {
+  margin-left: 10%;
+  flex-direction: column-reverse; ;
+}
+
+.footer2 p {
+  font-size: 20px;
+  padding: 7%;
+}
+
+.socials {
+  width: 100%;
+  margin-left: 0;
+}
+
+.features h1 {font-size: 30px;}
+
+}
+
+@media screen and (min-width: 540px) and (max-width: 640px) {
+
+.nav-menu.active {
+  opacity: 1;
+  width: 50%;
+  margin-left: 20%;
+  margin-bottom: 0px;
+}
+
+.nav-btn-container {margin-left: 80%;}
+
+.nav-menu li {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-right: 10%;
+}
+
+.sign-in {margin-left: 15%;}
+
+.value-proposition {
+  width: 80%;
+  margin-top: 800px;
+  margin-left: 10%;
+}
+
+header {height: 1500px;}
+
+.illustration1 {
+  height: 28%;
+  margin-right: 15%;
+}
+
+.trade-securely .text h1 {font-size: 30px;}
+
+.cryptocurrencies h1 {font-size: 30px;}
+
+.calculate h2 {font-size: 20px;}
+
+.features {height: 2800px;}
+
+}
+
+
+@media screen and (min-width: 425px) and (max-width: 540px) {
+
+.nav-menu.active {
+  opacity: 1;
+  width: 50%;
+  margin-left: 10%;
+  margin-bottom: 0px;
+}
+
+.nav-btn-container {margin-left: 70%;}
+
+.nav-menu li {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-right: 10%;
+}
+
+.sign-in {margin-left: 5%;}
+
+.illustration1 {
+  height: 24%;
+  margin-right: 12%;
+}
+
+.value-proposition {
+  width: 80%;
+  margin-top: 750px;
+  margin-left: 10%;
+}
+
+.info {width: 340px;}
+
+.info p {font-size: 14px;}
+
+header {height: 1400px;}
+
+.trade-securely .text h1 {font-size: 24px;}
+
+.cryptocurrencies h1 {font-size: 24px;}
+
+.features {height: 2600px;}
+
+.calculate h2 {font-size: 19px;}
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 424px) {
+
+.nav-menu.active {
+  opacity: 1;
+  width: 50%;
+  margin-left: -10%;
+  margin-bottom: 0px;
+}
+
+.nav-btn-container {margin-left: 70%;}
+
+.nav-menu li {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-right: 10%;
+}
+
+.sign-in {margin-left: -20%;}
+
+.illustration1 {
+  height: 23%;
+  margin-right: 8%;
+}
+
+.value-proposition {
+  width: 80%;
+  margin-top: 650px;
+  margin-left: 10%;
+}
+
+header {height: 1300px;}
+
+.number1 {margin-top: 0;}
+
+.numbers {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.numbers h1 {
+  margin-top: 20px;
+  font-size: 32px;
+}
+
+.numbers p {width: 150px; font-size: 16px;}
+
+.numbers img {width: 100px;}
+
+
+.trade-securely .text {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 30px;
+}
+
+.trade-securely .text h1 {font-size: 26px;}
+
+.cryptocurrencies h1 {font-size: 24px;}
+
+.info {
+  width: 320px;
+  height: 60px;
+  padding: 2%;
+}
+
+.info .button {
+  padding: 4%;
+  height: 48px;
+}
+
+.value-proposition .text {margin: 48px 0;}
+
+.features {height: 2500px;}
+
+.features h1 {font-size: 26px;}
+
+.calculate h2 {font-size: 16px;}
+
+.payment-systems img {width: 80px;}
+
+.footer2 {
+  margin-left: 10%;
   flex-direction: column-reverse; ;
 }
 
@@ -1518,126 +1446,54 @@ footer .logo img {
   margin-left: 0;
 }
 
-@media screen and (min-width: 540px) and (max-width: 640px) {
+@media screen and (min-width: 320px) and (max-width: 359px) {
 
-.value-proposition {
+.sign-in {margin-left: -35%;}
+
+.illustration1 {
+  height: 22%;
+  margin-right: 4%;
+}
+
+.value-proposition h1 {font-size: 32px;}
+
+header {height: 1250px;}
+
+.numbers {
   width: 80%;
-  margin-top: 800px;
   margin-left: 10%;
 }
 
-.number1 {
-  margin-top: 0;
+.number1, .number2, .number3 {width: 100%;}
+
+.numbers img {width: 70px;}
+
+.info {width: 280px;}
+
+.info .button {padding: 6% 2%;}
+
+.features {height: 2400px;}
+
+.features h1 {font-size: 26px;}
+
+.calculate h4 {font-size: 14px;}
+
+.grow-profit img {margin-top: 100px;}
+
+.calculate h2 {font-size: 14px;}
+
+.payment-systems img {width: 60px;}
+
+.socials {margin-left: 0;}
+
+.footer2 {
+  margin-left: 0;
+  flex-direction: column-reverse; ;
 }
 
-.illustration1 {
-  height: 28%;
-  margin-right: 15%;
-}
-
-.trade-securely .text h1 {
-  font-size: 30px;
-}
-
-.cryptocurrencies h1 {
-  font-size: 30px;
-}
-
-.features {
-  height: 2800px;
-}
-
-.calculate h2 {
+.footer2 p {
   font-size: 20px;
+  padding: 23.5%;
 }
 
 }
-
-
-@media screen and (min-width: 425px) and (max-width: 540px) {
-
-.illustration1 {
-  height: 23%;
-  margin-right: 10%;
-}
-
-.number1 {
-  margin-top: 0;
-}
-
-.value-proposition {
-  width: 80%;
-  margin-top: 750px;
-  margin-left: 10%;
-}
-
-
-.trade-securely .text h1 {
-  font-size: 24px;
-}
-
-.cryptocurrencies h1 {
-  font-size: 24px;
-}
-
-.features {
-  height: 2600px;
-}
-
-.calculate h2 {
-  font-size: 19px;
-}
-}
-
-@media screen and (min-width: 375px) and (max-width: 425px) {
-
-.illustration1 {
-  height: 23%;
-  margin-right: 8%;
-}
-
-.number1 {
-  margin-top: 0;
-}
-
-.value-proposition {
-  width: 80%;
-  margin-top: 650px;
-  margin-left: 10%;
-}
-
-header {height: 1300px;}
-
-
-.trade-securely .text h1 {
-  font-size: 24px;
-}
-
-.cryptocurrencies h1 {
-  font-size: 24px;
-}
-
-.info {
-  width: 330px;
-  height: 60px;
-}
-
-.info .button {
-  padding: 5%;
-  height: 60px;
-}
-
-
-.features {
-  height: 2500px;
-}
-
-.features h1{
-  font-size: 28px;
-}
-
-.calculate h2 {
-  font-size: 16px;
-}
-}
-

@@ -85,7 +85,7 @@ nav ul {
   pointer-events: none;
 }
 
-.nav-btn-container .search-btn {
+.nav-btn-container .menu-btn {
   opacity: 0;
   pointer-events: none;
 }
@@ -647,9 +647,74 @@ footer .logo img {
 
 .socials a {margin-left: 32px;}
 
-@media screen and (min-width: 1350px) and (max-width: 1450px) {
 
-nav ul {margin-left: 30%;}
+@media screen and (min-width: 1980px) and (max-width: 2560px) {
+
+p { font-size: 22px; }
+
+.trade-securely .text p { font-size: 22px; }
+
+nav ul {margin-left: 35%;}
+
+.info { width: 540px; }
+
+.nav-menu li {
+  font-size: 22px;
+  margin-right: 30%;}
+
+.sign-in {margin-left: 25%;}
+
+.sign-in a {font-size: 22px;}
+
+.numbers {
+  width: 50%;
+  margin-left: 25%;
+}
+
+.illustration2 {width: 30%;}
+
+.coins .button2 {
+  margin-left: 28%;
+  margin-top: 60px;
+}
+
+.coins .BTC, .coins  .ETH, .coins .LTC {
+  padding: 1.8%;
+}
+
+.features {height: 2400px;}
+
+.features .text p {font-size: 22px;}
+
+.features .text h2  {font-size: 42px;}
+
+.start-mining-now {padding: 3%;}
+
+.start-mining-now h1 {
+  margin-bottom: 16px;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.links li a {font-size: 22px;}
+
+.footer1 h3 {font-size: 32px;}
+
+.footer2 p {font-size: 22px;}
+
+.payment-systems h1 {font-size: 42px;}
+
+.payment-systems img {width: 96px;}
+
+.socials {margin-left: 55vw;}
+
+.socials a img {width: 35px;}
+
+}
+
+@media screen and (min-width: 1350px) and (max-width: 1450px) {
+ 
+nav ul {margin-left: 33%;}
 
 .nav-menu li {margin-right: 20%;}
 
@@ -658,6 +723,8 @@ nav ul {margin-left: 30%;}
 .illustration1 {height: 60%;}
 
 .illustration2 {width: 45%;}
+
+.value-proposition h1 {font-size: 58px;}
 
 .content {height: 380px;}
 
@@ -696,19 +763,11 @@ nav ul {margin-left: 30%;}
 
 }
 
-@media screen and (min-width: 1280px) and (max-width: 1350px) {
- 
-header {height: 1000px;}
-
-.value-proposition h1 {font-size: 56px;}
-
-}
-
 @media screen and (min-width: 1080px) and (max-width: 1350px) {
 
 body {height: 5700px;}
 
-nav ul {margin-left: 17%;}
+nav ul {margin-left: 15%;}
 
 .nav-menu li {margin-right: 25%;}
 
@@ -894,9 +953,11 @@ header {height: 650px;}
 
 body {height: 5500px;}
 
-.nav-menu li {margin-right: 10%;}
+nav ul {margin-left: 2%;}
 
-.sign-in {margin-left: 15%;}
+.nav-menu li {margin-right: 8%;}
+
+.sign-in {margin-left: 14%;}
 
 .value-proposition h1 {font-size: 28px;}
 
@@ -948,7 +1009,7 @@ header {height: 500px;}
 
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
 
 body {height: 5500px;}
 
@@ -985,23 +1046,14 @@ nav ul {
 
 .nav-btn-container img {position: absolute;}
 
-.nav-btn-container .close-btn {
+.nav-btn-container .close-btn, .nav-btn-container .menu-btn {
    width: 40px;
+   padding: 5%;
    background: white;
    border-radius: 50%;
    opacity: 1;
    pointer-events: auto;
 }
-
-
-.nav-btn-container .search-btn {
-  width: 40px;
-  background: white;
-  border-radius: 50%;
-  opacity: 1;
-  pointer-events: auto;
-}
-
 
 .nav-btn-container .close-btn {
   opacity: 0;
@@ -1010,12 +1062,12 @@ nav ul {
   transition: 300ms;
 }
 
-.nav-btn-container .search-btn {
+.nav-btn-container .menu-btn {
   pointer-events: auto;
   transition: 300ms;
 }
 
-.nav-btn-container.active .search-btn {
+.nav-btn-container.active .menu-btn {
   opacity: 0;
   pointer-events: none;
   transform: translateY(-8px);
@@ -1046,22 +1098,33 @@ nav ul {
 
 .top .logo img {width: 50px;}
 
+.value-proposition h1 {font-size: 38px;}
+
 .value-proposition {
   width: 70%;
-  margin-top: 850px;
+  margin-top: 650px;
   margin-left: 15%;
 }
 
-.value-proposition h1 {font-size: 38px;}
+.value-proposition.active {
+  margin-top: 850px;
+}
 
 .illustration1 {
-  margin-top: 250px;
+  margin-top: 50px;
   float: center;
-  height: 33%;
+  height: 40%;
   margin-right: 15%;
 }
 
-header {height: 1400px;}
+.illustration1.active {
+  height: 33%;
+  margin-top: 250px;
+}
+
+header {height: 1200px;}
+
+header.active {height: 1400px;}
 
 .numbers {
   flex-direction: column;
@@ -1283,16 +1346,27 @@ footer .logo img {height: 50px;}
 
 .value-proposition {
   width: 80%;
-  margin-top: 800px;
+  margin-top: 600px;
   margin-left: 10%;
 }
 
-header {height: 1500px;}
+.value-proposition.active {
+  margin-top: 800px;
+}
 
 .illustration1 {
   height: 28%;
   margin-right: 15%;
 }
+
+.illustration1.active {
+  height: 26%;
+  margin-top: 250px;
+}
+
+header {height: 1300px;}
+
+header.active {height: 1500px;}
 
 .trade-securely .text h1 {font-size: 30px;}
 
@@ -1324,22 +1398,32 @@ header {height: 1500px;}
 
 .sign-in {margin-left: 5%;}
 
-.illustration1 {
-  height: 24%;
-  margin-right: 12%;
-}
-
 .value-proposition {
   width: 80%;
-  margin-top: 750px;
+  margin-top: 550px;
   margin-left: 10%;
 }
+
+.value-proposition.active {
+  margin-top: 800px;
+}
+
+.illustration1 {
+  height: 25%;
+  margin-right: 13%;
+}
+
+.illustration1.active {
+  height: 22%;
+}
+
+header {height: 1300px;}
+
+header.active {height: 1500px;}
 
 .info {width: 340px;}
 
 .info p {font-size: 14px;}
-
-header {height: 1400px;}
 
 .trade-securely .text h1 {font-size: 24px;}
 
@@ -1371,17 +1455,40 @@ header {height: 1400px;}
 .sign-in {margin-left: -20%;}
 
 .illustration1 {
-  height: 23%;
+  height: 27%;
   margin-right: 8%;
+}
+
+.illustration1.active {
+  height: 23%;
 }
 
 .value-proposition {
   width: 80%;
-  margin-top: 650px;
+  margin-top: 450px;
   margin-left: 10%;
 }
 
-header {height: 1300px;}
+.value-proposition.active {
+  margin-top: 650px;
+}
+
+.value-proposition .text {margin: 48px 0;}
+
+.info {
+  width: 310px;
+  height: 60px;
+  padding: 2%;
+}
+
+.info .button {
+  padding: 4%;
+  height: 48px;
+}
+
+header {height: 1100px;}
+
+header.active {height: 1300px;}
 
 .number1 {margin-top: 0;}
 
@@ -1409,19 +1516,6 @@ header {height: 1300px;}
 .trade-securely .text h1 {font-size: 26px;}
 
 .cryptocurrencies h1 {font-size: 24px;}
-
-.info {
-  width: 320px;
-  height: 60px;
-  padding: 2%;
-}
-
-.info .button {
-  padding: 4%;
-  height: 48px;
-}
-
-.value-proposition .text {margin: 48px 0;}
 
 .features {height: 2500px;}
 
@@ -1451,13 +1545,24 @@ header {height: 1300px;}
 .sign-in {margin-left: -35%;}
 
 .illustration1 {
+  margin-top: 0px;
+  height: 24%;
+  margin-right: 8%;
+}
+
+.illustration1.active {
   height: 22%;
-  margin-right: 4%;
+}
+
+.value-proposition {
+  margin-top: 350px;
 }
 
 .value-proposition h1 {font-size: 32px;}
 
-header {height: 1250px;}
+header {height: 1050px;}
+
+header.active {height: 1250px;}
 
 .numbers {
   width: 80%;
